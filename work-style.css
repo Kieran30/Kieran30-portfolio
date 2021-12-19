@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    -webkit-scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 62.5em;
+    margin: 0 auto;
+    padding: 0 1.25em;
+}
+  
+body {
+    background-color: #000000;
+    width: 100%;
+}
+
+main {
+    padding-top: 48px;
+    border-style: solid; 
+    border-width: 5px;
+    margin-top: 5px;
+    margin-bottom: 100px;
+    margin-right: 80px;
+    margin-left: 80px;
+    color: #FFFAFA;
+    border-radius: 125px;
+}
+
+li,
+a{
+   font-size: 15px;
+   font-family: "Montserrat", sans-serif;
+   display: inline-block;
+   color: #FFFAFA;
+   text-decoration: none;
+   text-transform: uppercase;
+   margin-right: 100px;
+   text-align: center;
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+
+nav{
+   text-align: center;
+   color: #FFFAFA;
+}
+
+h1 {
+    padding-top: 2px;
+        text-align: center;
+        font-size: 30px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        padding-left: 0;
+        color: #FFFAFA;
+}
+
+h2{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    padding-left: 0;
+    color: #FFFAFA;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 40%;  
+}
+
+<style>
+img{
+    width: 25%;
+    float: right;
+    margin: 0 0 0 15%;
+}
+p {
+    width: 25%;
+    float: left;
+    margin: 0 0 0 15%;
+
+}
+</style>
+
+.pictures
+{ border: 1px solid #ddd
+    border-radius: 100px
+      max width:50%
+      height: auto 
+      padding: 50px;
+      width:50%
+      margin-left::auto
+      margin-right:auto   
+} 
+header > img {position:absolute;
+    max-width:10%
+    
+}
+
+
+
+  .mainmenu {
+    list-style: none;
+    text-align: center;
+    padding-left: 40px;
+    line-height: 55px;
+    margin: 10;
+}
+
+@media(min-width: 700px) {
+    h1 {
+        padding-top: 2px;
+        text-align: center;
+        font-size: 30px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        padding-left: 0;
+        color: #FFFAFA;
+    }
+
+    h2 {
+        padding-top: 50px;
+        text-align: center;
+        font-size: 17px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        padding-left: 0;
+        color: #FFFAFA;
+    }
+
+}
+
+@media (min-width: 1140px) {
+   
+
+    .contact-grid {
+        display: grid;
+        grid-auto-flow: column;
+        grid-gap: 0px;
+    }
+ 
+}
+
+@media(min-width: 1200px) {
+    .homepage1 {
+        grid-area: homepage1;
+    }
+    .homepage2 {
+        grid-area: homepage2;
+    }
+    .homepage3 {
+        grid-area: homepage3;
+    }
+    .homepage4 {
+        grid-area: homepage4;
+    }
+
+    .homepage-grid {
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-areas:
+        "homepage1 homepage3"
+        "homepage2 homepage3"
+        "homepage4 homepage3";
+    }
+
+    .paragraphs {
+        text-align: left;
+        width: 376px;
+        padding-left: 67px;
+        font-size: 11px;
+    }
+
+    #homepage {
+        padding-top: 144px;
+        padding-bottom: 70px;
+    }
+
+}
+
+@media(min-width: 1440px) {
+    
+    .mainmenu {
+        position: absolute;
+        all:initial;
+        list-style: none;
+        text-align: right;
+        padding-left: 150px;
+        line-height: 105px;
+        margin: 0;
+        padding-top: 0;
+    }
+
+    .mainmenu li {
+        display: inline-flexbox;
+    }
+      
+    .mainmenu a {
+        color: FFFAFA;
+        font-size: 15px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: "Montserrat",sans-serif;
+        padding: 0px 30px;
+    }
+      
+    .mainmenu a:hover {
+        color: #FFFAFA;
+        font-weight: bold;
+    }
+}
+
+.nav-active{
+    transform: translateX(0%);
+}/* CSS Document */
+
+
